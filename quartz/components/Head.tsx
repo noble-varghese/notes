@@ -6,9 +6,7 @@ import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } fro
 
 export default (() => {
   const Head: QuartzComponent = ({ cfg, fileData, externalResources }: QuartzComponentProps) => {
-    const titleSuffix = cfg.pageTitleSuffix ?? ""
-    const title =
-      (fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title) + titleSuffix
+    const title = fileData.frontmatter?.title ?? i18n(cfg.locale).propertyDefaults.title
     const description =
       fileData.description?.trim() ?? i18n(cfg.locale).propertyDefaults.description
     const { css, js } = externalResources
@@ -18,7 +16,7 @@ export default (() => {
     const baseDir = fileData.slug === "404" ? path : pathToRoot(fileData.slug!)
 
     const iconPath = joinSegments(baseDir, "static/icon.png")
-    const ogImagePath = `https://${cfg.baseUrl}/static/og-image.png`
+    const ogImagePath = fileData.frontmatter?.cover ?? `https://${cfg.baseUrl}/static/og-image.png`
 
     return (
       <head>
@@ -40,6 +38,20 @@ export default (() => {
         <link rel="icon" href={iconPath} />
         <meta name="description" content={description} />
         <meta name="generator" content="Quartz" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="alternate" type="application/rss+xml" 
+          title="RSS Feed for Ellie's Notes" 
+          href="/index.xml" />
+
+
+        {/* I could totally edit the below loop, but I'd rather keep my changes localized to make for easier rebasing on updates */}
+        <link
+          href="http://fonts.googleapis.com/css?family=Enriqueta:400,700"
+          rel="stylesheet"
+          type="text/css"
+        />
+
         {css.map((href) => (
           <link key={href} href={href} rel="stylesheet" type="text/css" spa-preserve />
         ))}

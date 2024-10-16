@@ -35,6 +35,8 @@
     "quartz": "./quartz/bootstrap-cli.mjs"
   },
   "dependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
     "@clack/prompts": "^0.7.0",
     "@floating-ui/dom": "^1.6.11",
     "@napi-rs/simple-git": "0.1.19",
@@ -55,6 +57,7 @@
     "is-absolute-url": "^4.0.1",
     "js-yaml": "^4.1.0",
     "lightningcss": "^1.27.0",
+    "lucide-react": "^0.453.0",
     "mdast-util-find-and-replace": "^3.0.1",
     "mdast-util-to-hast": "^13.2.0",
     "mdast-util-to-string": "^4.0.0",
@@ -101,6 +104,7 @@
     "@types/js-yaml": "^4.0.9",
     "@types/node": "^22.7.5",
     "@types/pretty-time": "^1.1.5",
+    "@types/react": "^18.3.11",
     "@types/source-map-support": "^0.5.10",
     "@types/ws": "^8.5.12",
     "@types/yargs": "^17.0.33",

@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import ImageWithCaption from "./quartz/components/ImageWithCaption"
 
 /**
  * Quartz 4.0 Configuration
@@ -8,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Quartz 4.0",
+    pageTitle: "🪴 Home",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -51,6 +52,9 @@ const config: QuartzConfig = {
           textHighlight: "#b3aa0288",
         },
       },
+    },
+    components: {
+      ImageWithCaption,
     },
   },
   plugins: {
