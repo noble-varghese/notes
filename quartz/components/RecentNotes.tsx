@@ -20,7 +20,7 @@ interface Options {
 const defaultOptions = (cfg: GlobalConfiguration): Options => ({
   limit: 3,
   linkToMore: false,
-  showTags: true,
+  showTags: false,
   filter: () => true,
   sort: byDateAndAlphabetical(cfg),
 })
@@ -53,11 +53,11 @@ export default ((userOpts?: Partial<Options>) => {
                       </a>
                     </h3>
                   </div>
-                  {page.dates && (
+                  {/* {page.dates && (
                     <p class="meta">
                       <Date date={getDate(cfg, page)!} locale={cfg.locale} />
                     </p>
-                  )}
+                  )} */}
                   {opts.showTags && (
                     <ul class="tags">
                       {tags.map((tag) => (

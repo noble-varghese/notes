@@ -1,19 +1,47 @@
 ---
-title: Quick Intro
-date: 2024-10-14
+title: Hello, World!
+date: 2024-09-14
 ---
+<style>
+  .profile-container {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  .profile-pic img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  .profile-text {
+    flex: 1;
+  }
+  @media (max-width: 600px) {
+    .profile-container {
+      flex-direction: column;
+      align-items: center;
+    }
+    .profile-text {
+      text-align: center;
+    }
+  }
+</style>
 
-<div class="welcome">
-<div>
 
-# Hello, World! I'm Noble Varghese 👋
-
-I'm a backend software engineer with a passion for infrastructure and a knack for turning coffee into code. For the past 5 years, I've been navigating the exciting waters of startup engineering, always eager to dive deep into the backend realm.
-
-Growing up in a middle-class family, my curiosity about computers wasn't just a passing phase—it became my career and calling. Now, I'm on a mission to build robust systems and contribute to the ever-evolving tech landscape.
-
+<div class="profile-container">
+  <div class="profile-text">
+    </br>
+    </br>
+    </br>
+    <p>My name is Noble Varghese. I'm a backend software engineer with a passion for infrastructure and a knack for turning coffee into code. For the past 5 years, I've been navigating the exciting waters of startup engineering, always eager to dive deep into the backend realm.</p>
+  </div>
+  <div class="profile-pic">
+    <img src="/assets/profile/IMG_7643.jpg" alt="Noble Varghese" />
+  </div>
 </div>
-</div>
+
 
 ## What Drives Me
 
@@ -39,21 +67,10 @@ Want to know more about my contributions? Check out my [GitHub](https://github.c
 My career has been a thrilling ride through the startup ecosystem:
 Each role has been a stepping stone, allowing me to hone my skills in Python, Node.js/TypeScript, and Go. I've learned that in the world of startups, adaptability is just as crucial as technical prowess.
 
-## Tech Musings
+## What You'll Find Here
+This space is my digital notebook – a collection of long-form blogs and short-form notes. It's where I share insights, document my tech adventures, and create a knowledge base that's as much for you as it is for me.
+So, whether you're here to explore the latest in backend technologies, dive into DevOps best practices, or just to connect with a fellow tech enthusiast, you're in the right place. Let's innovate, learn, and grow together!
 
-When I'm not coding, I'm often writing about it. My blog covers a range of topics in the tech world. Here are some recent posts:
-
-- [The Art of Scalable Backend Design](/blog/scalable-backend-design)
-- [Navigating the Open Source Galaxy](/blog/open-source-contributions)
-- [Python vs. Go: A Backend Developer's Perspective](/blog/python-vs-go)
-
-## Beyond the Screen
-
-Life isn't all about code (shocking, I know!). When I step away from the keyboard:
-
-- 🏞️ I'm exploring new terrains on foot, camera in hand
-- 📸 Capturing moments and memories through photography
-- 🌟 Dreaming up the next big tech idea
 
 ## Let's Connect!
 
@@ -68,5 +85,5 @@ Feel free to reach out—whether it's about a project, a tech discussion, or jus
 ---
 
 <div class="footer">
-<p><em>This site is a constant work in progress, much like software itself. Last updated: October 14, 2024</em></p>
+<p><em>This site is a constant work in progress, much like software itself.</em></p>
 </div>
