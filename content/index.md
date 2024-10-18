@@ -49,6 +49,11 @@ date: 2024-09-14
 - **Infrastructure**: I love architecting systems that can scale and stand the test of time (and traffic!).
 - **Open Source**: Contributing to projects that shape the future of tech? Count me in!
 
+## What You'll Find Here
+- [Posts](/posts): a selection of my longer-form writing and thoughts
+- [Notes](/notes): where I write about things I’m working on and exploring. They’re not supposed to be as high-quality as a post, but I’ll be publishing them much more often.
+
+
 ## Projects & Contributions
 
 I believe in the power of community-driven development. Here are some open-source projects I've had the privilege to contribute to:
@@ -66,11 +71,6 @@ Want to know more about my contributions? Check out my [GitHub](https://github.c
 
 My career has been a thrilling ride through the startup ecosystem:
 Each role has been a stepping stone, allowing me to hone my skills in Python, Node.js/TypeScript, and Go. I've learned that in the world of startups, adaptability is just as crucial as technical prowess.
-
-## What You'll Find Here
-This space is my digital notebook – a collection of long-form blogs and short-form notes. It's where I share insights, document my tech adventures, and create a knowledge base that's as much for you as it is for me.
-So, whether you're here to explore the latest in backend technologies, dive into DevOps best practices, or just to connect with a fellow tech enthusiast, you're in the right place. Let's innovate, learn, and grow together!
-
 
 ## Let's Connect!
 
