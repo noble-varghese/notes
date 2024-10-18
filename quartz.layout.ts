@@ -1,3 +1,4 @@
+import { Linkedin } from "lucide-react"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
@@ -8,9 +9,9 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/ellie",
-      Mastodon: "https://hachyderm.io/@ellie",
-      Twitter: "https://twitter.com/ellie_huxtable",
+      GitHub: "https://github.com/noble-varghese",
+      Twitter: "https://x.com/noble96k",
+      Linkedin: "https://www.linkedin.com/in/noble-k-varghese",
     },
   }),
 }
@@ -29,6 +30,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Links()),
+    // Component.DesktopOnly(Component.Explorer()),
     Component.DesktopOnly(Component.RecentNotes()),
   ],
   right: [

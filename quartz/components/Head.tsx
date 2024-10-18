@@ -41,7 +41,7 @@ export default (() => {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link rel="alternate" type="application/rss+xml" 
-          title="RSS Feed for Ellie's Notes" 
+          title="RSS Feed for Noble's Notes" 
           href="/index.xml" />
 
 
