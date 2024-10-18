@@ -77,7 +77,7 @@ So, whether you're here to explore the latest in backend technologies, dive into
 I'm always excited to connect with fellow tech enthusiasts, potential collaborators, or anyone who wants to chat about the latest in backend engineering.
 
 - 🐦 Twitter: [@Noble96K](https://twitter.com/Noble96K)
-- 💼 LinkedIn: [Noble Varghese](https://www.linkedin.com/in/noble-varghese)
+- 💼 LinkedIn: [Noble Varghese](https://www.linkedin.com/in/noble-k-varghese)
 - 🖥️ GitHub: [@noble-varghese](https://github.com/noble-varghese)
 
 Feel free to reach out—whether it's about a project, a tech discussion, or just to say hi!
