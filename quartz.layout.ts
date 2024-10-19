@@ -34,8 +34,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.DesktopOnly(Component.RecentNotes()),
   ],
   right: [
-    Component.MobileOnly(Component.RecentNotes()),
     Component.MobileOnly(Component.Explorer()),
+    Component.MobileOnly(Component.RecentNotes()),
     Component.Graph({
       localGraph: {
         drag: true, // whether to allow panning the view around

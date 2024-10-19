@@ -77,8 +77,8 @@ Each role has been a stepping stone, allowing me to hone my skills in Python, No
 I'm always excited to connect with fellow tech enthusiasts, potential collaborators, or anyone who wants to chat about the latest in backend engineering.
 
 - GitHub: [@noble-varghese](https://github.com/noble-varghese)
-- LinkedIn: [Noble Varghese](https://www.linkedin.com/in/noble-k-varghese)
-- Twitter: [@Noble96K](https://twitter.com/Noble96K)
+- LinkedIn: [noble-k-varghese](https://www.linkedin.com/in/noble-k-varghese)
+- Twitter: [@noble96k](https://twitter.com/Noble96K)
 
 Feel free to reach out—whether it's about a project, a tech discussion, or just to say hi!
 
