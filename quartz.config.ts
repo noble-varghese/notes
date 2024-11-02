@@ -14,7 +14,7 @@ if (!posthogApiKey) {
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Home",
+    pageTitle: "🏠 Home",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
@@ -37,7 +37,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f5f2e9",
+          light: "#FEFEFE",
           lightgray: "#e0dcd3",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
