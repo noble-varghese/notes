@@ -6,7 +6,7 @@ tags: [interpreting, k9s]
 
 When using K9s to monitor Kubernetes infrastructure, you'll see several columns of information about your pods. Here's what each column in the display means:
 
-![K9s interface showing pod information](/assets/notes/k9s-image.png)
+![K9s interface showing pod information](/assets/notes/cute-man-working-computer-with-coffee-cartoon-vector-icon-illustration-people-technology-icon-concept-isolated-premium-vector-flat-cartoon-style_138676-3868.avif)
 
 | Column   | Description                                                                             |
 | -------- | --------------------------------------------------------------------------------------- |
