@@ -1,7 +1,7 @@
 ---
 date: 2024-11-25
 title: "The Case of the Missing Makefile: A Git Story"
-tags: [git, makefile, infra]
+tags: [git, makefile]
 ---
 
 Imagine this: your CI/CD pipeline fails with a cryptic error message. Everything works perfectly on your local machine. The Makefile is present, the commands are valid, and there’s no apparent issue. Yet, the deployment fails repeatedly. What’s going on?
