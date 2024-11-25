@@ -1,7 +1,7 @@
 ---
 title: Troubleshooting and Scaling Pods in k9s
 date: 2024-10-17
-tags: infra, kubernetes, k9s
+tags: kubernetes, k9s
 ---
 
 ## Troubleshooting Missing Pods

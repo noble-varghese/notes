@@ -1,7 +1,7 @@
 ---
 date: 2024-11-11
 title: "Understanding K9s Pod Information"
-tags: [infra, k9s, devops]
+tags: [infra, k9s]
 ---
 
 When using K9s to monitor Kubernetes infrastructure, you'll see several columns of information about your pods. Here's what each column in the display means:
