@@ -1,7 +1,7 @@
 ---
 title: Kubernetes Workload Types
 date: 2024-10-17
-tags: infra, kubernetes
+tags: kubernetes
 ---
 
 ![Kubernetes Workload Types Comparison](/assets/notes/kube-controllers.png)

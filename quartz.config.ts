@@ -2,6 +2,11 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 import ImageWithCaption from "./quartz/components/ImageWithCaption"
 
+const posthogApiKey = process.env.POSTHOG_API_KEY
+if (!posthogApiKey) {
+  console.warn("Warning: POSTHOG_API_KEY environment variable is not set")
+}
+
 /**
  * Quartz 4.0 Configuration
  *
@@ -9,12 +14,14 @@ import ImageWithCaption from "./quartz/components/ImageWithCaption"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🪴 Home",
+    pageTitle: "🏠 Home",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
-      provider: "plausible",
+      provider: "posthog",
+      apiKey: posthogApiKey ?? "",
+      host: "https://us.i.posthog.com",
     },
     locale: "en-US",
     baseUrl: "noblevarghese.com",
@@ -30,7 +37,7 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#f5f2e9",
+          light: "#FEFEFE",
           lightgray: "#e0dcd3",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
